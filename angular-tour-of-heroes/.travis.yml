@@ -12,4 +12,4 @@ before_script:
 script:
   - ng build --prod
   - npm install sonar-scanner
-  - sonar-scanner -Dsonar.projectKey=angular-tour-of-heroes -Dsonar.organization=haandyha-github -Dsonar.sources=src -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+  - sonar-scanner -Dsonar.projectKey=haandyha_sonaCloud-angular-with-travis -Dsonar.organization=haandyha-github -Dsonar.sources=src -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN

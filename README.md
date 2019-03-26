@@ -1,2 +1,0 @@
-# sonarCloud-angular-with-travis
-

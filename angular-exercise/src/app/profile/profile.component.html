@@ -1,0 +1,9 @@
+<hr>
+<div>
+  <h3>Profile Component:</h3>
+  <button (click)='toggleDisp()'>{{btnVal}}</button>
+  <div *ngIf='disp==true'>
+    <p>{{user.name}}</p>
+    <p>{{user.email}}</p>
+  </div>
+</div>

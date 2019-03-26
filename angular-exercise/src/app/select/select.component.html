@@ -1,0 +1,15 @@
+<hr>
+<div>
+  <h3>Select Component:</h3>
+    <p>Fix later</p>
+    <form>
+      <input type='radio' (click)='dispSel($event)' name='selection' value='animals'>Animals<br>
+      <input type='radio' (click)='dispSel($event)' name='selection' value='colors'>Colors<br>
+      <input type='radio' (click)='dispSel($event)' name='selection' value='days'>Days<br>
+    </form>
+  <div>
+    <ul>
+      <li *ngFor='let i of selection'>{{i}}</li>
+    </ul>
+  </div>
+</div>
